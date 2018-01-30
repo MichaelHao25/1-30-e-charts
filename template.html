@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head design-width="750">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<!-- 优先使用 IE 最新版本和 Chrome -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!-- 启用360浏览器的极速模式(webkit) -->
+	<!-- <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/> -->
+	<!-- 添加 favicon icon -->
+	<meta name="renderer" content="webkit">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/public.css" />
+	<script src="js/font-size.js"></script>
+	<script src="js/fastclick.js"></script>
+	<script>
+		if ('addEventListener' in document) {
+			document.addEventListener('DOMContentLoaded', function() {
+				FastClick.attach(document.body);
+			}, false);
+		}
+	</script>
+</head>
+<body>
+	
+	<section class="tabs-wrap">
+		<div class="tabs-control">
+			<a href="#" class="active">我的营收</a>
+			<a href="#">我的薪酬</a>
+			<a href="#">我的资源</a>
+		</div>
+	</section>
+	<section class="income bdb10">
+		
+		<h3 class="public-title">
+			<span>收入（近3个月）</span>
+		</h3>
+		<div class="row">
+			<div class="col-xs-4">
+				<div class="pic bdn"><img src="img/hico1.png" alt="" class="w55"></div>
+				<h4>账期</h4>
+			</div>
+			<div class="col-xs-4">
+				<div class="pic"><img src="img/hico2.png" alt="" class="w51"></div>
+				<h4>收入-价税合一</h4>
+			</div>
+			<div class="col-xs-4">
+				<div class="pic"><img src="img/hico3.png" alt="" class="w54"></div>
+				<h4>收入-增量</h4>
+			</div>
+			<div class="col-xs-4">
+				<div class="pic"><img src="img/hico4.png" alt="" class="w52"></div>
+				<h4>收入-存量</h4>
+			</div>
+		</div>
+		<div class="data">
+			<div class="row">
+				<div class="col-xs-4">
+					201707
+				</div>
+				<div class="col-xs-4">
+					136.16
+				</div>
+				<div class="col-xs-4">
+					25.34
+				</div>
+				<div class="col-xs-4">
+					53.52
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					201707
+				</div>
+				<div class="col-xs-4">
+					136.16
+				</div>
+				<div class="col-xs-4">
+					25.34
+				</div>
+				<div class="col-xs-4">
+					53.52
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					201707
+				</div>
+				<div class="col-xs-4">
+					136.16
+				</div>
+				<div class="col-xs-4">
+					25.34
+				</div>
+				<div class="col-xs-4">
+					53.52
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					201707
+				</div>
+				<div class="col-xs-4">
+					136.16
+				</div>
+				<div class="col-xs-4">
+					25.34
+				</div>
+				<div class="col-xs-4">
+					53.52
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="develop bdb10">
+		<h3 class="public-title">
+			<span>
+				发展（新增）
+			</span>
+		</h3>
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="round">
+					<h4>移动</h4>
+					<p>昨日：<span class="orange">23</span></p>
+					<p>月累计：<span class="orange">1114</span></p>
+					<p>年累计：<span class="orange">85865</span></p>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="round">
+					<h4>宽带</h4>
+					<p>昨日：<span class="orange">23</span></p>
+					<p>月累计：<span class="orange">1114</span></p>
+					<p>年累计：<span class="orange">85865</span></p>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="round">
+					<h4>ITV</h4>
+					<p>昨日：<span class="orange">23</span></p>
+					<p>月累计：<span class="orange">1114</span></p>
+					<p>年累计：<span class="orange">85865</span></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-2">
+				<div class="round">
+					<h4>终端</h4>
+					<p>昨日：<span class="orange">23</span></p>
+					<p>月累计：<span class="orange">1114</span></p>
+					<p>年累计：<span class="orange">85865</span></p>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<div class="round">
+					<h4>融合</h4>
+					<p>昨日：<span class="orange">23</span></p>
+					<p>月累计：<span class="orange">1114</span></p>
+					<p>年累计：<span class="orange">85865</span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="chart bdb10">
+		<h3 class="public-title">
+			<span>
+				预算
+			</span>
+		</h3>
+		<div id="completion-rate">
+			
+		</div>
+	</section>
+	<section class="chart broadband bdb10">
+		<h3 class="public-title">
+			<span>
+				宽带攻防（1月）
+			</span>
+		</h3>
+		<div class="content">
+			<div class="row">
+				<div class="col-xs-2">
+					<div class="pic">
+						<img src="img/hico5.png" alt="" class="w46">
+					</div>
+					<div class="text">
+						<h3>宽带续约率</h3>
+						<p>48% <span>↑30%</span></p>
+					</div>
+				</div>
+				<div class="col-xs-2">
+					<div class="pic">
+						<img src="img/hico6.png" alt="" class="w42">
+					</div>
+					<div class="text">
+						<h3>宽带融移占比</h3>
+						<p>48% <span class="down">↓10%</span></p>
+					</div>
+				</div>
+				<div class="col-xs-2">
+					<div class="pic">
+						<img src="img/hico7.png" alt="" class="w45">
+					</div>
+					<div class="text">
+						<h3>宽带拆装比</h3>
+						<p>48% <span>↑30%</span></p>
+					</div>
+				</div>
+				<div class="col-xs-2">
+					<div class="pic">
+						<img src="img/hico8.png" alt="" class="w44">
+					</div>
+					<div class="text">
+						<h3>宽带融合用户数</h3>
+						<p>48% <span>↑30%</span></p>
+					</div>
+				</div>
+				<div class="col-xs-2">
+					<div class="pic">
+						<img src="img/hico9.png" alt="" class="w46">
+					</div>
+					<div class="text">
+						<h3>宽带渗透率</h3>
+						<p>48% <span>↑30%</span></p>
+					</div>
+				</div>
+				<div class="col-xs-2"></div>
+			</div>
+		</div>
+	</section>
+	<section class="chart bdb10">
+		<h3 class="public-title">
+			<span>
+				擂台赛（201801）
+			</span>
+		</h3>
+		<div id="team-rate">
+			
+		</div>
+	</section>
+	<section class="chart bdb10">
+		<h3 class="public-title">
+			<span>
+				预算
+			</span>
+		</h3>
+		<div id="cumulative-budget-rate">
+			
+		</div>
+	</section>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/echarts.common.min.js"></script>
+	<script src="js/js.js"></script>
+	<script>
+		var cumulativeBudgetRate = echarts.init(document.getElementById('cumulative-budget-rate'));
+		var option = {
+			title: {
+				text: '累计预算完成率',
+				left:'center',
+				top:'3%',
+			},
+			tooltip : {
+				trigger: 'axis',
+				axisPointer : {            
+					type : 'shadow'        
+				},
+				formatter: function (params) {
+					var tar = params[0];
+					return tar.name+ ' : ' + tar.value+'%';
+				}
+			},
+			yAxis: {
+				type:'category',
+				data: ["ITV净增用户","光宽带净增用户","宽带净增用户","智能机销售 ","移动用户净增","主营业务收入"]
+			},
+			xAxis: {
+				type:'value',
+			},
+			grid:{
+				left:'30%',
+			},
+			series: [{
+				name: '累计预算完成率',
+				type: 'bar',
+				data: [58.52, 45.74,57.85, 45.96, 75.74, 52.36],
+				label:{
+					show:true,
+					position:'insideRight',
+					formatter:function(params){
+						return params.value+'%';
+					}
+				}
+			}]
+		};
+		cumulativeBudgetRate.setOption(option);
+	</script>
+</body>
+</html>
+

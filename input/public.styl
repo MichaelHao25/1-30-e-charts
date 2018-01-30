@@ -1,0 +1,198 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+ body{
+ 	font-size: 16Px;
+ }
+
+.tabs-wrap
+	.tabs-control
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		justify-content space-around
+		border-bottom 2px solid #f6f6f6
+		a
+			display block
+			padding 22px 16px
+			color #000
+			line-height 1
+			font-size 20px
+			transition 0.3s background
+			background linear-gradient(to bottom,transparent,transparent) left top/5px 24px no-repeat,
+			linear-gradient(to right,#ff802c,#ff802c) left bottom/0px 4px no-repeat
+			&:hover
+			&.active
+				background linear-gradient(to bottom,#3f9ff6,#3f9ff6) left center/5px 24px no-repeat,
+				linear-gradient(to right,#ff802c,#ff802c) left bottom/100% 4px no-repeat
+.public-title
+	text-align center
+	font-size 24px
+	color #888
+	line-height 1
+	padding 20px 0 40px
+	span
+		position relative
+		&:after
+			content ""
+			position absolute
+			top 50%
+			left -50px
+			width 40px
+			border-top 1px solid #888
+		&:before
+			content ""
+			position absolute
+			top 50%
+			right -50px
+			width 40px
+			border-top 1px solid #888
+.bdb10
+	border-bottom 10px solid #f8f8f8
+.row
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	flex-wrap wrap
+	.col-xs-4
+		flex 0 0 25%
+	.col-xs-3
+		flex 0 0 33.33%
+	.col-xs-2
+		flex 0 0 50%
+.income
+	.pic
+		height 56px
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		align-items center
+		border-left 1px solid #888888
+		&.bdn
+			border none
+		img
+			margin 0 auto
+			display block
+		.w55
+			width 55px	
+		.w51
+			width 51px
+		.w54
+			width 54px
+		.w52
+			width 52px
+	h4
+		padding 10px 0 20px
+		font-size 22px
+		color #888
+		line-height 1
+		text-align center
+	.data
+		font-size 22px
+		color #272727
+		text-align center
+		line-height 2
+		.row:nth-child(odd)
+			background #f8f8f8
+		
+
+.develop
+	.round
+		position relative
+		width 200px
+		height 200px
+		border-radius 50%
+		margin 0 auto 30px
+		border 6px solid #f6bd35
+		:after
+			content ""
+			position absolute
+			top -.4rem
+			left 50%
+			margin-left -.2rem
+			border .2rem solid transparent
+			border-bottom-color #f6bd35
+		h4
+			font-size 28px
+			color #000
+			line-height 2.5
+			text-align center
+		p
+			width 80%
+			margin 0 auto
+			font-size 20px
+			color #888
+			line-height 1.5
+			.orange
+				color #f6bd35
+
+.broadband
+	padding 0 15px 20px
+	.content
+		overflow hidden
+		border-radius 5px
+		border-right 1px solid #dedede
+		border-bottom 1px solid #dedede
+		.col-xs-2
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			justify-content flex-start
+			align-items center
+			box-sizing border-box
+			height 110px
+			border-top 1px solid #dedede
+			border-left 1px solid #dedede
+			.pic
+				width 100px
+				img
+					display block
+					margin 0 auto
+					&.w46
+						width 46px
+					&.w42
+						width 42px
+					&.w45
+						width 45px
+					&.w44
+						width 44px
+			h3
+				font-size 22px
+				color #000
+				padding-bottom 10px
+			p
+				font-size 22px
+				color #888
+				span
+					padding-left 20px
+					color #f76466
+					&.down
+						color #3eb98a
+
+
+#completion-rate
+#team-rate
+#cumulative-budget-rate
+	margin 0 auto
+	width 700px
+	height 530px
+	border 1px solid #dcdcdc
+	margin-bottom 20px
+
+#completion-rate
+	height 600px
